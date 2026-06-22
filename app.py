@@ -45,10 +45,10 @@ SKALA_WARNA_PETA = "Teal"       # skema warna choropleth: Blues, Greens, Reds, V
 DATA_DIR = "data"
 SHAPEFILE_PATH = os.path.join(DATA_DIR, "kelurahan.shp")
 CSV_FILES = {
-    2022: os.path.join(DATA_DIR, "2022.csv"),
-    2023: os.path.join(DATA_DIR, "2023.csv"),
-    2024: os.path.join(DATA_DIR, "2024.csv"),
-    2025: os.path.join(DATA_DIR, "2025.csv"),
+    2022: os.path.join(DATA_DIR = "."),
+    2023: os.path.join(DATA_DIR = "."),
+    2024: os.path.join(DATA_DIR = "."),
+    2025: os.path.join(DATA_DIR = "."),
 }
 FIELD_NAMA_KELURAHAN = "DESA_KELUR"
 FIELD_NAMA_KECAMATAN = "KECAMATAN"
