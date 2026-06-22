@@ -42,13 +42,13 @@ WARNA_TEMA_MUDA = "#A8DADC"     # warna aksen muda
 SKALA_WARNA_PETA = "Teal"       # skema warna choropleth: Blues, Greens, Reds, Viridis, Teal, dll
                                   # cek pilihan lain di: https://plotly.com/python/builtin-colorscales/
 
-DATA_DIR = "data"
+DATA_DIR = "."
 SHAPEFILE_PATH = os.path.join(DATA_DIR, "kelurahan.shp")
 CSV_FILES = {
-    2022: os.path.join(DATA_DIR = "."),
-    2023: os.path.join(DATA_DIR = "."),
-    2024: os.path.join(DATA_DIR = "."),
-    2025: os.path.join(DATA_DIR = "."),
+    2022: os.path.join(DATA_DIR = "2022.csv"),
+    2023: os.path.join(DATA_DIR = "2023.csv"),
+    2024: os.path.join(DATA_DIR = "2024.csv"),
+    2025: os.path.join(DATA_DIR = "2025.csv"),
 }
 FIELD_NAMA_KELURAHAN = "DESA_KELUR"
 FIELD_NAMA_KECAMATAN = "KECAMATAN"
